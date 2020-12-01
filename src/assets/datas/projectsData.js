@@ -4,8 +4,8 @@ let projectsDatas = [
         id: 0,
         name: "Portfolio Benoit Petit ⭐",
         technologies: "React",
-        details: "Template structure d'un projet Node.js avec Express",
-        url: "https://github.com/benoitpetit/NodeJS-MVC-Skeleton",
+        details: "Portfolio",
+        url: "https://github.com/benoitpetit/portfolio-benoitpetit",
     },
     {
         id: 1,
