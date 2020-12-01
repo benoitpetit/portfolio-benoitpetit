@@ -6,7 +6,7 @@ const About = () => (
         <h2 className="text-center">À Propos 👨🏻‍💻</h2>
         <hr className="bg-light w-25 mb-4" />
         <div className="row container-about p-3">
-            <p className="text-justify" >J'ai 32 ans. Je suis <strong>Concepteur et Développeur d'application</strong> PHP/Symfony et React et je suis diplômé de 
+            <p className="text-justify" >J'ai 32 ans. Je suis <strong>Concepteur et Développeur d'application</strong> PHP/Symfony et React, je suis diplômé de 
             la Webforce3 de Lille où j’ai étudié l'intégration et le développement d'appplication Web et Mobile. 
             J’effectue continuellement une veille informatique pour me tenir au courant des avancées technologiques et langages informatiques.. <br /><br />
             Je suis une formation de perfectionnement chez ENI "Ecole d'informatique" dans la <strong>conception d'application : </strong>
