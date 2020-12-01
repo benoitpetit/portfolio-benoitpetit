@@ -6,7 +6,7 @@ let initialData = [
         dates: 'févr. 2014 - Oct 2018',
         duration: '4 ans 9 mois',
         location: 'Hénin-Beaumont, Nord-Pas-de-Calais, France',
-        details: 'Micro-entreprise dépannage, maintenance, installation en informatique hardware particuliers et professionnels, installation de poste windows, linux. configuration, formation, sauvegarde, création de poste personnalisé.'
+        details: 'Micro-entreprise dépannage, maintenance et installation en informatique hardware.\n Installation de postes: windows et linux. Configuration, formation, sauvegarde, création de poste personnalisé.'
     },
     {
         id: 1,
@@ -15,7 +15,7 @@ let initialData = [
         dates: 'févr. 2019 – sept. 2019',
         duration: '9 mois',
         location: 'Roubaix, Nord-Pas-de-Calais, France',
-        details: 'Maintenance évolutive, optimisation sur site e-commerce PHP, implémentation de nouvelles fonctionnalités, création d\'une application back en NodeJS de gestion de commandes, implémentation d\'un système de paiement, création d\'une application Symfony de gestion de commandes et de clients connecté à un web services avec mise à jour en temps reel'
+        details: 'Maintenance évolutive, optimisation sur site e-commerce PHP, implémentation de nouvelles fonctionnalités, création d\'une application back en Nodejs de gestion de commandes, implémentation d\'un système de paiement, création d\'une application Symfony de gestion de commandes et de clients connectée à un web service avec mise à jour en temps reel.'
     },
     {
         id: 4,

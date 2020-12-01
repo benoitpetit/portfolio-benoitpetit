@@ -24,7 +24,7 @@ const diplomes = [
         link: "https://www.eni-ecole.fr/formation/concepteur-rice-developpeur-euse-dapplications"
     },
     {
-        id: "Autres certification",
+        id: "Autres",
         title: "NodeJS, Docker, GitlabCI/CD",
         delivery: "Mai 2018, Novembre 2020",
         link: "https://drive.google.com/drive/folders/10ChGLhRNfOhdtDQt_bXyriFIs0w1ucJy?usp=sharing"

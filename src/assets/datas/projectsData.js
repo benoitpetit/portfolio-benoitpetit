@@ -23,7 +23,7 @@ let projectsDatas = [
     },
     {
         id: 3,
-        name: "SYMBNB ",
+        name: "SymBNB ",
         technologies: "Symfony5",
         details: "Application de location entre particulier [symfony 5]",
         url: "https://github.com/benoitpetit/SYMBNB",
