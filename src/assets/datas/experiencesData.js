@@ -15,7 +15,7 @@ let initialData = [
         dates: 'févr. 2019 – sept. 2019',
         duration: '9 mois',
         location: 'Roubaix, Nord-Pas-de-Calais, France',
-        details: 'Maintenance évolutive, optimisation sur site e-commerce PHP, implémentation de nouvelles fonctionnalités, création d\'une application back en NodeJS de gestion de commandes, implémentation d\'un système de paiement, création d\'une applications Symfony de gestion de commandes et de clients connecté à un web services avec mise à jour en temps reel'
+        details: 'Maintenance évolutive, optimisation sur site e-commerce PHP, implémentation de nouvelles fonctionnalités, création d\'une application back en NodeJS de gestion de commandes, implémentation d\'un système de paiement, création d\'une application Symfony de gestion de commandes et de clients connecté à un web services avec mise à jour en temps reel'
     },
     {
         id: 4,
