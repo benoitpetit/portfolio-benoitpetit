@@ -19,5 +19,5 @@
   "display": "minimal-ui",
   "theme_color": "#24B993",
   "background_color": "#343A3F",
-  "orientation": "any",
+  "orientation": "any"
 }
