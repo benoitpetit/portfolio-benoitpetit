@@ -1,0 +1,85 @@
+/*GLOBAL*/
+.projects{height: 250px;}
+
+*{background-color: #343A3F;}
+*::selection{background-color: #24b994;color: white;}
+*::-moz-selection {background-color: #24b994;color: white;}
+
+h1{font-family: "Circular Std Black", sans-serif}
+h2{font-family: "Circular Std Bold", sans-serif}
+p{font-family: "Circular Std Book",serif; font-size: 18px}
+
+button, .btn-outline-light {
+  text-align: center;
+  transition: all 0.3s ease 0s;
+  border: 1px whitesmoke solid;
+
+}
+button:hover,.btn-outline-light:hover {
+  text-align: right;
+  background-color: #24B993;
+  color: white;
+  border: 1px #24B993 solid;}
+
+/*HEADER*/
+.header-cite{display: inline}
+.social-icon{height: 40px;width: 40px}
+.social-icon:hover{
+  -webkit-filter : brightness(150%); /* Chrome, Safari, Opera */
+  filter : brightness(150%);
+}
+.name-header{color: #24b994}
+.head-profil{height: auto;width: 250px;}
+
+/* clignoter barre header */
+@keyframes clignoter {
+  0%   { opacity:1; }
+  40%   {opacity:0; }
+  100% { opacity:1; }
+}
+.ityped-cursor{
+  animation-duration: .6s;
+  animation-name: clignoter;
+  animation-iteration-count: infinite;
+  transition: none;
+}
+
+/* RESPONSIVE */
+.resp-text-header{display: none;}
+.container-about,
+.container-experience,
+.container-projects,
+.projects-container,
+.diplomes-container{max-width: 75%;margin: auto;}
+.text-diplome{color: #24b994;}
+.stack{height: auto;width: 50%;}
+@media (max-width: 800px) { 
+  .resp-header, #ityped{ display: none;}
+  .resp-text-header{display: block;}
+  .container-about,
+  .container-experience,
+  .container-projects,
+  .projects-container,
+  .diplomes-container{max-width: 100%;margin: auto;}
+  .stack{width: 100%;}
+}
+
+/* PROJECT */
+.container-projects{font-size: 14px;}
+.list-group-item {
+  padding: 10px;
+  background-color: transparent;
+  border-radius: 0;
+  color: #fff;
+  border: 1px solid white;
+}
+.lien-container-projects{color: #24b994;}
+.lien-container-projects:hover{text-decoration:none;color: #24b994;}
+.badge-mix{background-color: #24b994;padding: 5px;}
+.lien-project{color: white;}
+.lien-project:hover{text-decoration:none;color: white}
+
+/*FOOTER*/
+.img-footer{height: auto;width: 30px;padding-bottom: 6px}
+.netlify-footer{ height: auto;width: 70px;}
+.second-footer{font-size: 15px;margin-top: -16px;}

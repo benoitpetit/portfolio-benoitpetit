@@ -1,0 +1,23 @@
+{
+  "lang": "fr",
+  "short_name": "Benoit Petit",
+  "name": "Benoit Petit - Concepteur et Développeur d'application web",
+  "description": "Portfolio de Benoit Petit - Concepteur et Développeur d'application web. specialisation Php, Symfony, React",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "logo.png",
+      "type": "image/png",
+      "sizes": "192x192 512/512"
+    }
+  ],
+  "start_url": ".",
+  "display": "minimal-ui",
+  "theme_color": "#24B993",
+  "background_color": "#343A3F",
+  "orientation": "any",
+}
