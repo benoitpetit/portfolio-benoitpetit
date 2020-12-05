@@ -12,10 +12,6 @@ import '../assets/css/style.css'
 import Diplomes from './Diplomes'
 import AOS from 'aos'
 import 'aos/dist/aos.css'; // You can also use <link> for styles
-// React Google Analytics
-import ReactGA from 'react-ga'
-ReactGA.initialize('G-ZFL2584SYB')
-ReactGA.pageview(window.location.pathname + window.location.search);
 
 
 
