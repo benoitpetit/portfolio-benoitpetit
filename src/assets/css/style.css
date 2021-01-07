@@ -52,7 +52,7 @@ button:hover,.btn-outline-light:hover {
 .projects-container,
 .diplomes-container{max-width: 75%;margin: auto;}
 .text-diplome{color: #24b994;}
-.stack{height: auto;width: 50%;}
+.stack{height: auto;width: auto;}
 @media (max-width: 800px) { 
   .resp-header, #ityped{ display: none;}
   .resp-text-header{display: block;}
