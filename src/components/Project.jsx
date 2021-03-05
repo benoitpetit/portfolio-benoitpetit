@@ -13,7 +13,7 @@ class Project extends React.Component {
             <ul className="list-group p-3">
                 {
                     this.state.data.map(name => (
-                        <div className="shadow">
+                        <div className="shadow m-1">
                             {/* eslint-disable-next-line react/jsx-no-target-blank */}
                             <li className="list-group-item"><span className="badge badge-mix">{name.technologies}</span><a className="text-light lien-container-projects" href={name.url}> - {name.name} </a></li>
                         </div>

@@ -30,8 +30,8 @@ class App extends React.Component {
         // eslint-disable-next-line no-undef
         AOS.init({
             // initialise with other settings
-            duration : 500,
-            delay: 350, // values from 0 to 3000, with step 50ms
+            duration : 300,
+            delay: 150, // values from 0 to 3000, with step 50ms
 
         });
     }

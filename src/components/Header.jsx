@@ -11,7 +11,7 @@ import gt from '../assets/images/socials/github-w.png'
 const Header = () => (
     <div className="mb-5 mt-5">
         <img className="rounded-circle mx-auto d-block head-profil" data-aos="zoom-in" data-aos-delay="150" src={profil} alt="profil pic" />
-        <h1 className="text-center display-5">Hello ! moi c'est <strong className="name-header">Benoît Petit</strong> <br /> <span className="resp-header">je suis <span id="ityped" /> web</span><span className="resp-text-header">je suis Concepteur et Developpeur web</span></h1>
+        <h1 className="text-center display-5 mt-3">Hello ! moi c'est <strong className="name-header">Benoît Petit</strong> <br /> <span className="resp-header">je suis <span id="ityped" /> web</span><span className="resp-text-header">je suis Concepteur et Developpeur web</span></h1>
         <div className="d-flex justify-content-center">
 
             <div className="p-2"> <a target="blank_" href="https://www.linkedin.com/in/benoit-petit-110/"><img
