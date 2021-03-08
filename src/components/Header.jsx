@@ -1,7 +1,7 @@
 import React from 'react'
 
 // datas images
-import profil from '../assets/images/pictures/profil.jpg'
+import profil from '../assets/images/pictures/profil.png'
 import dev from '../assets/images/socials/dev-w.png'
 import twi from '../assets/images/socials/twi-w.png'
 import link from '../assets/images/socials/link-w.png'
@@ -24,7 +24,7 @@ const Header = () => (
                 className="social-icon" src={gt} alt={'linkedin logo'} /></a></div>
         </div>
         <div className="d-flex justify-content-center mt-4">
-            <a className="btn btn-outline-light p-3 shadow" data-aos="zoom-in" data-aos-delay="150" target="blank_" href="https://drive.google.com/file/d/1byKGZ9QIb7Wwr7DtkWQF02YjB4yxD5Mv/view?usp=sharing">Télécharger mon CV</a>
+            <a className="btn btn-outline-light p-3 shadow" target="blank_" href="https://drive.google.com/file/d/1byKGZ9QIb7Wwr7DtkWQF02YjB4yxD5Mv/view?usp=sharing">Télécharger mon CV</a>
         </div>
     </div>
 )

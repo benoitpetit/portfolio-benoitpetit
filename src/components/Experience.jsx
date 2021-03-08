@@ -13,9 +13,9 @@ class Experience extends React.Component {
             <div className="row container-experience">
                 {this.state.data.map(name => (
                     <div className="col-md-12 m-1">
-                        <div className="card shadow">
+                        <div className="card shadow" data-aos="fade-up">
                             <div className="card-body">
-                                <h5 className="card-title font-weight-bold name-header">{name.title} - <span className="text-muted small">{name.entreprise}</span></h5>
+                                <h5 className="card-title font-weight-bold name-header"><a className="lien-container-projects" href="https://www.linkedin.com/in/benoit-petit-110/">{name.title}</a> - <span className="text-muted small">{name.entreprise}</span></h5>
                                 <p className="card-text">{name.details}</p>
                                 <small className="text-muted">{name.location} - ({name.dates}) - {name.duration}</small>
                             </div>

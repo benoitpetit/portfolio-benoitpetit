@@ -29,10 +29,10 @@ class App extends React.Component {
         })
         // eslint-disable-next-line no-undef
         AOS.init({
-            // initialise with other settings
-            duration : 300,
+            offset: 300,
+            once: true,
             delay: 150, // values from 0 to 3000, with step 50ms
-
+            mirror: true, // whether elements should animate out while scrolling past them
         });
     }
 
