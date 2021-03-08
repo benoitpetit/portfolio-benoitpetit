@@ -15,7 +15,7 @@ class Project extends React.Component {
                     this.state.data.map(name => (
                         <div className="shadow m-1" data-aos="fade-up">
                             {/* eslint-disable-next-line react/jsx-no-target-blank */}
-                            <li className="list-group-item"><span className="badge badge-mix">{name.technologies}</span><a className="text-light lien-container-projects" href={name.url}> - {name.name} </a></li>
+                            <li className="list-group-item"><span className="text-light badge badge-mix">{name.technologies}</span><a className="lien-container-projects" href={name.url}> - {name.name} </a></li>
                         </div>
                     ))
                 }
