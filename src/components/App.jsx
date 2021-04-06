@@ -33,7 +33,6 @@ class App extends React.Component {
             once: true,
             delay: 100, // values from 0 to 3000, with step 50ms
             mirror: true, // whether elements should animate out while scrolling past them
-
         });
     }
 

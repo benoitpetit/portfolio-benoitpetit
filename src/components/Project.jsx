@@ -10,7 +10,7 @@ class Project extends React.Component {
     }
     render() {
         return (
-            <ul className="list-group p-3">
+            <ul className="list-group p-3" data-aos="zoom-in">
                 {
                     this.state.data.map(name => (
                         <div className="shadow m-1">

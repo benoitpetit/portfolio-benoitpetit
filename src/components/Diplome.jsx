@@ -10,12 +10,12 @@ class Diplome extends React.Component {
     }
     render() {
         return (
-            <ul className="list-group p-3">
+            <ul className="list-group p-3" data-aos="zoom-in">
                 {
                     this.state.data.map(name => (
                         <div className="shadow m-1">
                             {/* eslint-disable-next-line react/jsx-no-target-blank */}
-                            <li className="list-group-item"><a className="text-light lien-container-projects" target='_blank' href={name.link}>📃 {name.id} - <span className="text-diplome">{name.title}</span> </a></li>
+                            <li className="list-group-item"><a className="lien-container-projects" target='_blank' href={name.link}><span className="text-light">📃 {name.id}</span> - <span className="text-diplome">{name.title}</span> </a></li>
                         </div>
 
                     ))

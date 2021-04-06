@@ -1,18 +1,18 @@
 import React from 'react'
 
 // datas images
-import profil from '../assets/images/pictures/profil.jpg'
+import profil from '../assets/images/pictures/profil.png'
 import dev from '../assets/images/socials/dev-w.png'
 import twi from '../assets/images/socials/twi-w.png'
 import link from '../assets/images/socials/link-w.png'
 import gt from '../assets/images/socials/github-w.png'
-import background from '../assets/images/background.png'
 
 
 const Header = () => (
     <div className="mb-5 mt-5">
         <img className="rounded-circle mx-auto d-block head-profil" data-aos="zoom-in" src={profil} alt="profil pic" />
         <h1 className="text-center display-5 mt-3">Hello ! moi c'est <strong className="name-header">Benoît Petit</strong> <br /> <span className="resp-header">je suis <span id="ityped" /> web</span><span className="resp-text-header">je suis Concepteur et Developpeur web</span></h1>
+
         <div className="d-flex justify-content-center">
 
             <div className="p-2"> <a target="blank_" href="https://www.linkedin.com/in/benoit-petit-110/"><img

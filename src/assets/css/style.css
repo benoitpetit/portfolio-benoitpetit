@@ -1,3 +1,4 @@
+
 /*GLOBAL*/
 .projects{height: 250px;}
 
@@ -9,18 +10,17 @@ h1{font-family: "Circular Std Black", sans-serif}
 h2{font-family: "Circular Std Bold", sans-serif}
 p{font-family: "Circular Std Book",serif; font-size: 18px}
 
-/*BUTTON*/
 button, .btn-outline-light {
   text-align: center;
   transition: all 0.3s ease 0s;
   border: 1px whitesmoke solid;
+
 }
 button:hover,.btn-outline-light:hover {
   text-align: right;
   background-color: #24B993;
   color: white;
-  border: 1px #24B993 solid;
-}
+  border: 1px #24B993 solid;}
 
 /*HEADER*/
 .header-cite{display: inline}
