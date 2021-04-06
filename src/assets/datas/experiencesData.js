@@ -12,8 +12,8 @@ let initialData = [
         id: 1,
         title: 'Concepteur et Développeur d\'application',
         entreprise:'Acteam-IT',
-        dates: 'févr. 2019 – sept. 2019',
-        duration: '9 mois',
+        dates: 'févr. 2019 – oct. 2019',
+        duration: '10 mois',
         location: 'Roubaix, Nord-Pas-de-Calais, France',
         details: 'Maintenance évolutive, optimisation sur site e-commerce PHP, implémentation de nouvelles fonctionnalités, création d\'une application back en Nodejs de gestion de commandes, implémentation d\'un système de paiement, création d\'une application Symfony de gestion de commandes et de clients connectée à un web service avec mise à jour en temps reel.'
     },

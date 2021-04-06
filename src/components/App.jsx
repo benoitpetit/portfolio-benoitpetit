@@ -24,14 +24,15 @@ class App extends React.Component {
             showCursor: true,
             strings: ['Développeur', 'Concepteur' ],
             typeSpeed:  120,
-            backDelay:  2500,
+            backDelay:  1500,
             cursorChar: "|"
         })
         // eslint-disable-next-line no-undef
         AOS.init({
-            // initialise with other settings
-            duration : 300,
-            delay: 150, // values from 0 to 3000, with step 50ms
+            offset: 300,
+            once: true,
+            delay: 100, // values from 0 to 3000, with step 50ms
+            mirror: true, // whether elements should animate out while scrolling past them
 
         });
     }
