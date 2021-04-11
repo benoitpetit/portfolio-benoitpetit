@@ -1,12 +1,9 @@
 import React from 'react'
-
 // datas images
 import profil from '../assets/images/pictures/profil.png'
-import dev from '../assets/images/socials/dev-w.png'
 import twi from '../assets/images/socials/twi-w.png'
 import link from '../assets/images/socials/link-w.png'
 import gt from '../assets/images/socials/github-w.png'
-
 
 const Header = () => (
     <div className="mb-5 mt-5">
@@ -14,13 +11,10 @@ const Header = () => (
         <h1 className="text-center display-5 mt-3">Hello ! moi c'est <strong className="name-header">Benoît Petit</strong> <br /> <span className="resp-header">je suis <span id="ityped" /> web</span><span className="resp-text-header">je suis Concepteur et Developpeur web</span></h1>
 
         <div className="d-flex justify-content-center">
-
             <div className="p-2"> <a target="blank_" href="https://www.linkedin.com/in/benoit-petit-110/"><img
                 className="social-icon" src={link} alt={'linkedin logo'} /></a></div>
             <div className="p-2"> <a target="blank_" href="https://twitter.com/codingben_"><img
                 className="social-icon" src={twi} alt={'twitter logo'} /></a></div>
-            {/* <div className="p-2"> <a target="blank_" href="https://dev.to/codingben_"><img
-                className="social-icon" src={dev} alt={'dev.to logo'} /></a></div> */}
             <div className="p-2"><a target="blank_" href="https://github.com/benoitpetit"><img
                 className="social-icon" src={gt} alt={'linkedin logo'} /></a></div>
         </div>

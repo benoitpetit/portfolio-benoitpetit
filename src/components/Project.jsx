@@ -20,7 +20,6 @@ class Project extends React.Component {
                     ))
                 }
             </ul>
-
         )
     }
 }

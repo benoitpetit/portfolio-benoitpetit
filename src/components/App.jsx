@@ -5,16 +5,13 @@ import About from './About'
 import Experiences from './Experiences'
 import Projects from './Projects'
 import Footer from './Footer'
-// libraries
-import { init } from 'ityped'
+import Diplomes from './Diplomes'
 // styles
 import '../assets/css/style.css'
-import Diplomes from './Diplomes'
+// libraries
+import { init } from 'ityped'
 import AOS from 'aos'
-import 'aos/dist/aos.css'; // You can also use <link> for styles
-
-
-
+import 'aos/dist/aos.css';
 
 class App extends React.Component {
     // type ecriture sur header
@@ -31,8 +28,8 @@ class App extends React.Component {
         AOS.init({
             offset: 300,
             once: true,
-            delay: 100, // values from 0 to 3000, with step 50ms
-            mirror: true, // whether elements should animate out while scrolling past them
+            delay: 100,
+            mirror: true,
         });
     }
 
