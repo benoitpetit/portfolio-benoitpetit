@@ -28,8 +28,10 @@ button:hover,.btn-outline-light:hover {
   -webkit-filter : brightness(150%); /* Chrome, Safari, Opera */
   filter : brightness(150%);
 }
-.name-header{color: #24b994}
-.head-profil{height: auto;width: 250px;}
+.experiences-link{color: #24b994}
+.name-header{color: #24b994;font-family: 'Damion', cursive;font-size: 60px;}
+.name-footer{color: #505050;font-family: 'Damion', cursive;font-size: 40px;}
+.head-profil{height: auto;width: 250px;border: 5px #24B993 solid;}
 
 /* clignoter barre header */
 @keyframes clignoter {
@@ -82,7 +84,7 @@ button:hover,.btn-outline-light:hover {
 /*FOOTER*/
 .img-footer{height: auto;width: 30px;padding-bottom: 6px}
 .netlify-footer{ height: auto;width: 70px;}
-.second-footer{font-size: 15px;margin-top: -16px;}
+.second-footer{font-size: 15px;margin-top: -16px;margin-bottom: 0px;}
 
 .warning{
   color: #ffb5e0;

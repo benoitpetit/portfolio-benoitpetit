@@ -10,7 +10,8 @@ const About = () => (
             la WebForce 3 Lille où j’ai étudié l'intégration et le développement d'appplication Web et Mobile. 
             J’effectue continuellement une veille informatique pour me tenir au courant des avancées technologiques et langages informatiques.<br /><br />
             Je suis une formation de perfectionnement chez ENI "Ecole d'informatique" dans la <strong>conception d'application : </strong>
-            <blockquote className="header-cite"><span className="warning"> je suis à la recherche d'un stage pour finaliser cette formation (du 21 juin au 13 août 2021).</span></blockquote></p>
+            <blockquote className="header-cite"><span className="warning"> je suis à la recherche d'un stage pour finaliser cette formation (du 21 juin au 13 août 2021). </span></blockquote>
+            </p>
         </div>
         <div className="d-flex justify-content-center">
             <img className="stack" src={stack} alt="stack"/>

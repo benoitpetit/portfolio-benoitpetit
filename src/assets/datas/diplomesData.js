@@ -12,14 +12,14 @@ const diplomes = [
         link: "https://drive.google.com/file/d/1zV833gN5p0XvLjcZKqSQjEGDoHJjv3Zn/view?usp=sharing"
     },
     {
-        id: "Sensiolab / OpenClassrooms",
+        id: "OpenClassrooms",
         title: "Developpeur Symfony",
         delivery: "Decembre 2019",
         link: "https://drive.google.com/file/d/1t_rUha0SPKLnrtFOzlSMLDk6wdaPIQyS/view?usp=sharing"
     },
     {
         id: "ENI",
-        title: "Concepteur et Developpeur d'application",
+        title: "Concepteur et Developpeur",
         delivery: "[formation en cours]",
         link: "https://www.eni-ecole.fr/formation/concepteur-rice-developpeur-euse-dapplications"
     },
