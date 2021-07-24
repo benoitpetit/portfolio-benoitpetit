@@ -20,7 +20,7 @@ const diplomes = [
     {
         id: "ENI",
         title: "Concepteur et Developpeur",
-        delivery: "[formation en cours]",
+        delivery: "Mai 2021",
         link: "https://www.eni-ecole.fr/formation/concepteur-rice-developpeur-euse-dapplications"
     },
     {
@@ -28,6 +28,12 @@ const diplomes = [
         title: "NodeJS, Docker, GitlabCI/CD",
         delivery: "Mai 2018, Novembre 2020",
         link: "https://drive.google.com/drive/folders/1H2YTHENaTQtiMnRZfPEtYYyGqXU4o2Du?usp=sharing"
+    },
+    {
+        id: "Atelier RGPD - CNIL",
+        title: "Commission Nationale de l'Informatique et des Libertés",
+        delivery: "Juin 2021",
+        link: "https://drive.google.com/file/d/18PvlpPrv7ZQltW0ec6JfSRGV0iZi0dmg/view"
     }
 
 ]

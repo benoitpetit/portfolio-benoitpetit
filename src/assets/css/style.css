@@ -53,7 +53,8 @@ button:hover,.btn-outline-light:hover {
 .container-projects,
 .projects-container,
 .diplomes-container{max-width: 75%;margin: auto;}
-.text-diplome{color: #24b994;}
+.text-diplome{color: #41af94;}
+.text-diplome:hover{color: #ffb5e0;}
 .stack{height: auto;width: auto;}
 @media (max-width: 800px) { 
   .resp-header, #ityped{ display: none;}
@@ -76,7 +77,7 @@ button:hover,.btn-outline-light:hover {
   border: 1px solid white;
 }
 .lien-container-projects{color: #24b994;}
-.lien-container-projects:hover{text-decoration:none;color: #24b994;}
+.lien-container-projects:hover{text-decoration:none;color: #FFB5E0;}
 .badge-mix{background-color: #24b994;padding: 5px;}
 .lien-project{color: white;}
 .lien-project:hover{text-decoration:none;color: white}
