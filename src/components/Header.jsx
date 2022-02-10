@@ -19,7 +19,7 @@ const Header = () => (
                 className="social-icon" src={gt} alt={'linkedin logo'} /></a></div>
         </div>
         <div className="d-flex justify-content-center mt-4">
-            <a className="btn btn-outline-light p-3 shadow" data-aos="zoom-in" target="blank_" href="https://drive.google.com/file/d/19UkosipaW86BDgF5d7fY_tihXltBO0o9/view?usp=sharing">Télécharger mon CV</a>
+            <a className="btn btn-outline-light p-3 shadow" data-aos="zoom-in" target="blank_" href="https://drive.infomaniak.com/app/share/297996/00a7e453-a647-441a-9d96-7f6212f2979e">Télécharger mon CV</a>
         </div>
     </div>
 )

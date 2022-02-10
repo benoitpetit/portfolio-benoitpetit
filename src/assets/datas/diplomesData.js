@@ -1,21 +1,21 @@
 const diplomes = [
     {
         id: "Webforce3",
-        title: "Integrateur Web",
+        title: "Integration Web",
         delivery: "Mai 2018",
-        link: "https://drive.google.com/file/d/1mo0OtL6Winv_99hUyT8tEocTEWDu83J_/view?usp=sharing"
+        link: "https://drive.infomaniak.com/app/share/297996/a6bf3589-9087-4290-b595-65bb767c0fb2"
     },
     {
         id: "Webforce3",
-        title: "Developpeur Web",
+        title: "Developpement Web",
         delivery: "Mai 2018",
-        link: "https://drive.google.com/file/d/1zV833gN5p0XvLjcZKqSQjEGDoHJjv3Zn/view?usp=sharing"
+        link: "https://drive.infomaniak.com/app/share/297996/a9e4ae03-6d4d-4515-b521-5864beb3edce"
     },
     {
         id: "OpenClassrooms",
         title: "Developpeur Symfony",
         delivery: "Decembre 2019",
-        link: "https://drive.google.com/file/d/1t_rUha0SPKLnrtFOzlSMLDk6wdaPIQyS/view?usp=sharing"
+        link: "https://drive.infomaniak.com/app/share/297996/9c55e364-2207-47ae-9376-38ae90445c78"
     },
     {
         id: "ENI",
@@ -27,13 +27,13 @@ const diplomes = [
         id: "Autres",
         title: "NodeJS, Docker, GitlabCI/CD",
         delivery: "Mai 2018, Novembre 2020",
-        link: "https://drive.google.com/drive/folders/1H2YTHENaTQtiMnRZfPEtYYyGqXU4o2Du?usp=sharing"
+        link: "https://drive.infomaniak.com/app/share/297996/2aa3046a-eecf-46f2-bf06-64e8b270e091"
     },
     {
         id: "Atelier RGPD - CNIL",
         title: "Commission Nationale de l'Informatique et des Libertés",
         delivery: "Juin 2021",
-        link: "https://drive.google.com/file/d/18PvlpPrv7ZQltW0ec6JfSRGV0iZi0dmg/view"
+        link: "https://drive.infomaniak.com/app/share/297996/604f7c6a-460f-44f4-910f-3dcc1352ab67"
     }
 
 ]
